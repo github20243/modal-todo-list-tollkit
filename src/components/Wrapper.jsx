@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import TodoList from "./TodoList";
 import TodoForm from "./TodoForm";
 import { Box, Button, styled } from "@mui/material";
-import TodoEdit from "./TodoEdit";
 
 const Wrapper = () => {
   const [openModal, setOpenModal] = useState(false);
